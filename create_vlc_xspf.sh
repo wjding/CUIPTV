@@ -11,7 +11,7 @@ BEGIN {
 } 
 
 {
-	gsub("rtp:/", "http://192.168.2.1:4022/rtp", $2)
+	gsub("rtp:/", "http://iptv.lan:4022/rtp", $2)
 	print "\t\t<track>"
 	print "\t\t\t<title>", $1, "</title>"
 	print "\t\t\t<location>", $2, "</location>"

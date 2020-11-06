@@ -1,2 +1,2 @@
 # CUIPTV
-IPTV multicast addresses
+QD Unicom IPTV multicast addresses
